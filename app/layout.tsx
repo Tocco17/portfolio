@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-import { Menu } from "./menu";
+import { Footer, Menu } from "../components/menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +19,6 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<main className="flex min-h-screen flex-col items-center justify-between p-24">
-					<Menu />
-					{children}
-				</main>
 			</body>
 		</html>
 	);
