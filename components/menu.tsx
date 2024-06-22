@@ -1,7 +1,7 @@
 
 export const Menu: Component = () => {
 	return (<>
-	<p>Piero</p>
+		<p>Piero</p>
 	</>)
 }
 
@@ -13,7 +13,7 @@ const Navbar: Component = () => {
 
 export const Footer: Component = () => {
 	return (<>
-	<p>Giacomo</p>
+		<p>Giacomo</p>
 	</>)
 }
 
@@ -25,6 +25,10 @@ export const PageContainer: PropsComponent<PageContainerProps> = ({
 	children
 }) => {
 	return (<>
-	{children}
+		<div
+			className="container"
+		>
+			{children}
+		</div>
 	</>)
 }

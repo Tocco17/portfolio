@@ -5,9 +5,9 @@ export default function AboutPageLayout({
 }>) {
 
 	return (<>
-		<div>
+		{/* <div> */}
 			<div>Layout</div>
 			<div>{children}</div>
-		</div>
+		{/* </div> */}
 	</>)
 }
