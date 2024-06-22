@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export const Menu: Component = () => {
 	return (<>
@@ -5,8 +6,8 @@ export const Menu: Component = () => {
 			<div className="menu-title">Federico's Portfolio</div>
 			<div className="menu-link-container">
 				<ul>
-					<li className="menu-link">Home</li>
-					<li className="menu-link">About</li>
+					<li className="menu-link"><Link href="/">Home</Link></li>
+					<li className="menu-link"><Link href="/about">About</Link></li>
 				</ul>
 			</div>
 		</div>
