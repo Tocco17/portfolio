@@ -1,3 +1,3 @@
 export default function AboutPage() {
-  return <div>Gianfranco</div>
+  return <div>About page</div>
 }

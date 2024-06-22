@@ -1,7 +1,7 @@
 
 export const Menu: Component = () => {
 	return (<>
-		<p>Piero</p>
+		<p>Menu</p>
 	</>)
 }
 
@@ -13,7 +13,7 @@ const Navbar: Component = () => {
 
 export const Footer: Component = () => {
 	return (<>
-		<p>Giacomo</p>
+		<p>Footer</p>
 	</>)
 }
 
