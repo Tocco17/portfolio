@@ -55,3 +55,28 @@ body
 	min-height: 100%;
 	flex-grow: 2;
 }
+
+.menu-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 100%;
+}
+
+.menu-link-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-link-container ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	gap: 3rem;
+
+	list-style-type: none;
+}

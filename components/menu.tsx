@@ -1,7 +1,15 @@
 
 export const Menu: Component = () => {
 	return (<>
-		<p>Menu</p>
+		<div className="menu-container">
+			<div className="menu-title">Federico's Portfolio</div>
+			<div className="menu-link-container">
+				<ul>
+					<li className="menu-link">Home</li>
+					<li className="menu-link">About</li>
+				</ul>
+			</div>
+		</div>
 	</>)
 }
 
