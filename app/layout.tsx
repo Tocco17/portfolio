@@ -4,7 +4,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Footer, Menu, PageContainer } from "../components/menu";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+	subsets: ["latin"]
+});
 
 export const metadata: Metadata = {
 	title: "Portfolio",
@@ -18,11 +20,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={inter.className}>
+			<body className={`${inter.className}`}>
 				<Menu />
 
 				<PageContainer>{children}</PageContainer>
-				
+
 				<Footer />
 			</body>
 		</html>
