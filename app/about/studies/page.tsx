@@ -1,4 +1,4 @@
-export const StudiesPage = () => {
+const StudiesPage = () => {
 	return (<>
 		<div>Studies page</div>
 
@@ -28,3 +28,5 @@ export const StudiesPage = () => {
 		</p>
 	</>)
 }
+
+export default StudiesPage

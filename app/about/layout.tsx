@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPageLayout({
 	children,
 }: Readonly<{
@@ -5,20 +7,17 @@ export default function AboutPageLayout({
 }>) {
 
 	return (<>
-		{/* <div> */}
-			<div>Layout</div>
-			<div>
-				<p>Link pagine</p>
-				<ul>
-					<li>Passions</li>
-					<li>Studies</li>
-					<li>Work Experience</li>
-					<li>Extra curriculum experience</li>
-					<li>Skills</li>
-					<li>Certificates</li>
-				</ul>
-			</div>
-			<div>{children}</div>
-		{/* </div> */}
+		<div className="page-with-menu">
+			<ul className="horizontal-navbar">
+				<li><Link href="/about">Introduction</Link></li>
+				<li><Link href="/about/passions">Passions</Link></li>
+				<li><Link href="/about/studies">Studies</Link></li>
+				<li><Link href="/about/work">Work Experience</Link></li>
+				<li><Link href="/about/extra">Extra curriculum experience</Link></li>
+				<li><Link href="/about/skills">Skills</Link></li>
+				<li><Link href="/about/certificates">Certificates</Link></li>
+			</ul>
+			<div className="container">{children}</div>
+		</div>
 	</>)
 }

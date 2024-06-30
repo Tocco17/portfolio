@@ -87,9 +87,37 @@ body
 	list-style-type: none;
 }
 
-.menu-link a{
+a{
 	color: white;
 	text-decoration: none;
+}
+
+
+.page-with-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	gap: 10px;
+}
+
+.horizontal-navbar{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	padding-left: 10px;
+
+	gap: 10px;
+	width: 80%;
+
+	list-style-type: none;
+}
+
+.horizontal-navbar a{
+	/* color: white; */
+
+	/* background-color: red; */
 }
 
 /* ------------------------------------------------- */

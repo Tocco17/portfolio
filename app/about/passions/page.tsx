@@ -1,4 +1,6 @@
-export const PassionsPage = () => {
+import { NextPage } from "next"
+
+const PassionsPage: NextPage = () => {
 	return (<>
 		<div>Passions page</div>
 		<p>
@@ -34,3 +36,5 @@ export const PassionsPage = () => {
 		</p>
 	</>)
 }
+
+export default PassionsPage

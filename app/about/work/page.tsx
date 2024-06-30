@@ -1,4 +1,4 @@
-export const WorkPage = () => {
+const WorkPage = () => {
 	return (<>
 		<div>Work page</div>
 
@@ -55,3 +55,5 @@ export const WorkPage = () => {
 		</p>
 	</>)
 }
+
+export default WorkPage

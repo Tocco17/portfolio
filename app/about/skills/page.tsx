@@ -1,4 +1,4 @@
-export const SkillsPage = () => {
+const SkillsPage = () => {
 	return (<>
 		<div>Skills page</div>
 		<p>
@@ -42,3 +42,5 @@ export const SkillsPage = () => {
 		</p>
 	</>)
 }
+
+export default SkillsPage

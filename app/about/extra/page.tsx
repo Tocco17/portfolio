@@ -1,4 +1,4 @@
-export const ExtraPage = () => {
+const ExtraPage = () => {
 	return (<>
 		<div>Extra curriculum experience</div>
 		<p>
@@ -13,3 +13,5 @@ export const ExtraPage = () => {
 		</p>
 	</>)
 }
+
+export default ExtraPage
