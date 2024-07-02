@@ -1,58 +1,96 @@
+"use client";
+
+import workExperiences from "@/models/work-experiences"
+import { useState } from "react"
+
 const WorkPage = () => {
+	const [experiences] = useState(workExperiences)
+
 	return (<>
-		<div>Work page</div>
+		<h2>Work page</h2>
 
-		<p>
-			Bushido Karate ASD 2018-2020
-			Istruttore di Karatè
-			Mansioni:
-			- Insegnante di persone in età infantile, preadolescenziale, adolelescenziale e adulta
-			- Organizzatore di eventi sportivi
-			- Gestione della clientela
-			- Pronto intervento (Corso di BLSD)
+		<div>
+			{
+				experiences.map((experience, indexExperience) => {
+					const mainKey = `work-experience-${indexExperience}`
 
-			
-			Eustema 2021-2022
-			Fullstack Developer
-			Progetti:
-			- SIL
-				Gestionale di offerte di lavoro per la regione Sardegna
-				Stack:
-					- .NET 5
-					- .NET Framework 4.8
-					- SQL Server
-					- Dapper
-					- Razor 
-					- Bootstrap
-			- Corte dei Conti 
-				Plugin Microsoft Word e Outlook 
-				Stack:
-					- .NET WindowsForm
-			- SIAE 
-				Sanificazione dati
+					return (
+						<div key={mainKey}>
+							<h3>{experience.societyName} ({experience.start} - {experience.end ?? 'current time'})</h3>
 
-			Remira Italia 2023-presente
-			Fullstack Developer
-			Progetti:
-			- MDSourcing 
-				Sito E-Commerce di vendita piante e alberi
-				Stack:
-					- Angular 
-					- .NET 5
-					- Entity Framework 
-					- Bootstrap
-			- Salary Calculette 
-				Gestionale contratti per l'EUI (European University Institute)
-				Stack:
-					- React ts
-					- .NET 7
-					- Entity Framework
-					- PostreSQL
-					- Docker 
-					- Tailwind CSS
-			
-			
-		</p>
+							<div>
+								<h4>Roles:</h4>
+								<ul>
+									{
+										experience.roles.map((role, indexRole) => (
+											<li key={`${mainKey}-role-${indexRole}`}>{role}</li>
+										))
+									}
+								</ul>
+							</div>
+
+							<div>
+								{
+									experience.projects.map((project, indexProject) => {
+										const projectKey = `${mainKey}-project-${indexProject}`
+
+										return (
+											<div key={`${projectKey}`}>
+												<h4>{project.name}</h4>
+
+												{
+													project.description &&
+													<div>
+														<h5>Description:</h5>
+														<p>{project.description}</p>
+													</div>
+												}
+
+												{
+													project.responsibilities &&
+													<div>
+														<h5>Responsibilities:</h5>
+														<ul>
+															{
+																project.responsibilities.map((responsibility, indexResponsibility) => {
+																	const responsibilityKey = `${projectKey}-responsibility-${indexResponsibility}`
+																	return (
+																		<li key={responsibilityKey}>{responsibility}</li>
+																	)
+																})
+															}
+														</ul>
+													</div>
+												}
+
+												{
+													project.stack &&
+													<div>
+														<h5>Stack:</h5>
+														<ul>
+															{
+																project.stack.map((stack, indexStack) => {
+																	const stackKey = `${projectKey}-stack-${indexStack}`
+
+																	return (
+																		<li key={stackKey}>{stack}</li>
+																	)
+																})
+															}
+														</ul>
+													</div>
+
+												}
+											</div>
+										)
+									})
+								}
+							</div>
+						</div>
+					)
+				})
+			}
+		</div>
 	</>)
 }
 
