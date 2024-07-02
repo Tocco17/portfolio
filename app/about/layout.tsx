@@ -17,7 +17,7 @@ export default function AboutPageLayout({
 				<li><Link href="/about/skills">Skills</Link></li>
 				<li><Link href="/about/certificates">Certificates</Link></li>
 			</ul>
-			<div className="container">{children}</div>
+			<div className="page">{children}</div>
 		</div>
 	</>)
 }

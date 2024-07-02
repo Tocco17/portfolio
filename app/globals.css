@@ -96,9 +96,10 @@ a{
 .page-with-menu{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: start;
 	align-items: start;
 	gap: 10px;
+	max-width: 100%;
 }
 
 .horizontal-navbar{
@@ -109,15 +110,8 @@ a{
 	padding-left: 10px;
 
 	gap: 10px;
-	width: 80%;
 
 	list-style-type: none;
-}
-
-.horizontal-navbar a{
-	/* color: white; */
-
-	/* background-color: red; */
 }
 
 /* ------------------------------------------------- */
