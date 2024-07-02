@@ -59,7 +59,7 @@ const remiraExperience: WorkExperience = {
 	projects: [
 		{
 			name: "MDSourcing",
-			description: "Sito E-Commerce di vendita piante e alberi",
+			description: "E-Commerce web application for the selling of plants and trees.",
 			stack: [
 				"Angular",
 				".NET 5",
@@ -69,7 +69,7 @@ const remiraExperience: WorkExperience = {
 		},
 		{
 			name: "Salary Calculette",
-			description: "Gestionale contratti per l'EUI (European University Institute)",
+			description: "Contract management system",
 			stack: [
 				"React ts",
 				".NET 7",
