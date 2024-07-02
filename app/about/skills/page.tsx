@@ -1,45 +1,23 @@
+"use client";
+
+import { KnowledgeSectionCard } from "@/components/page/KnowledgeSectionCard";
+import { knowledgeSections } from "@/models/knowledge";
+import { useState } from "react";
+
 const SkillsPage = () => {
+	const [sections] = useState(knowledgeSections)
+	
 	return (<>
-		<div>Skills page</div>
-		<p>
-			LINGUAGGI
-			javascript
-			jQuery 
-			typescript
-			C
-			C#
-			python 
-			php 
-			matlab 
-			html 5
-			css3 
-			SQL 
-		</p>
-		<p>
-			FRAMEWORK E LIBRERIE
-			react 
-			angular 
-			vue
-			laravel 
-			next js
-			.net 
-			material ui 
-			tailwind css 
-			Bootstrap
-			Entity Framework 
-			Dapper 
-		</p>
-		<p>
-			SOFTWARE
-			docker 
-			azure
-			aws 
-			xampp 
-			figma 
-			git 
-			node js 
-			PostgreSQL 
-		</p>
+		<h2>Skills page</h2>
+
+		{
+			sections.map((section, indexSection) => (
+				<KnowledgeSectionCard 
+					key={`knowledge-section-card-${indexSection}`} 
+					knowledgeSection={section}
+				/>
+			))
+		}
 	</>)
 }
 

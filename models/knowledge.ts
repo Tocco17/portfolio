@@ -10,7 +10,7 @@ const html: Knowledge = { name: "html 5" }
 const css: Knowledge = { name: "css3 " }
 const sql: Knowledge = { name: "SQL" }
 
-const languages: KnowledgeSection = {
+const programmingLanguageKnowledge: KnowledgeSection = {
 	name: "Programming Languages",
 	knowledges: [
 		javascript,
@@ -66,7 +66,7 @@ const git: Knowledge = { name: "git " }
 const nodeJs: Knowledge = { name: "node js" }
 const postgreSQL: Knowledge = { name: "PostgreSQL" }
 
-const software: KnowledgeSection = {
+const softwareKnowledge: KnowledgeSection = {
 	name: "Software",
 	knowledges: [
 		docker,
@@ -79,3 +79,9 @@ const software: KnowledgeSection = {
 		postgreSQL,
 	]
 }
+
+export const knowledgeSections: KnowledgeSection[] = [
+	programmingLanguageKnowledge,
+	frameworkKnowledge,
+	softwareKnowledge,
+]
