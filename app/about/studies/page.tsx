@@ -1,31 +1,34 @@
 const StudiesPage = () => {
 	return (<>
-		<div>Studies page</div>
+		<h2>Studies page</h2>
 
-		<p>
-			Mi sono iscritto all'Università degli Studi di Firenze, scuola Fisica e Astrofisica.
-			
-			Il primo approccio all'informatica l'ho avuto proprio all'Università.
-			Fra i corsi obbligatori del primo c'era proprio il corso di informatica,
-			in cui hanno insegnato C.
-			La materia mi è da subito piaciuta, tant'è che ho iniziato quasi immediatamente
-			a studiarla anche per conto mio.
-			Sotto consiglio di amici sviluppatori, ho subito iniziato a studiare C#. 
-			
-			Mi sono laureato nel 2021, discutendo una tesi con tema Recommended System.
-			Breve descrizione dei Recommended System:
-			Sono dei modelli che puntano ad analizzare una popolazione,
-			con lo scopo di poter prevedere i loro comportamenti.
-			Sono sistemi oggi visibili dappertutto, soprattutto utilizzato nei siti di e-commerce,
-			proprio per la loro natura.
-			Come dice il nome, puntano a consigliare prodotti specifici alle persone,
-			analizzando diversi fattori, come il periodo dell'anno, la loro età, il loro genere,
-			la cultura della popolazione intorno, il loro comportamento all'interno dello stesso
-			sito di e-commerce.
-			I vari modelli studiati li ho scritti usando Matlab.
+		<div>
 
-			Successivamente alla laurea ho trovato quasi subito lavoro come programmatore.			
-		</p>
+			<p>
+				I enrolled at the University of Florence, School of Physics and Astrophysics.
+			</p>
+
+			<p>
+				My first approach to computer science was at the university.
+				Among the mandatory first-year courses was an informatics course where they taught C.
+				I immediately liked the subject, so much so that I almost immediately started studying it on my own.
+				On the advice of developer friends, I soon began studying C#.
+			</p>
+
+			<p>
+				I graduated in 2021, defending a thesis on Recommended Systems.
+				A brief description of Recommended Systems: these are models aimed at analyzing a population to predict their behaviors.
+				These systems are ubiquitous today, especially used on e-commerce sites due to their nature.
+				As the name suggests, they aim to recommend specific products to people by analyzing various factors,
+				such as the time of year, age, gender, the culture of the surrounding population,
+				and their behavior within the same e-commerce site.
+				I wrote the various models I studied using Matlab.
+			</p>
+
+			<p>
+				After graduating, I quickly found a job as a programmer.
+			</p>
+		</div>
 	</>)
 }
 
