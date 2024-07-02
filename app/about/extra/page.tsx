@@ -9,7 +9,6 @@ const ExtraPage = () => {
 			Consigliere in Bushido Karatè
 
 			Teatro 
-			
 		</p>
 	</>)
 }
