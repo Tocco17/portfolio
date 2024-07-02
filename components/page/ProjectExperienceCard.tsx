@@ -75,7 +75,7 @@ const ProjectResponsibilitiesCard: NextPage<ProjectResponsibilitiesCardProps> = 
 					responsibilities.map((responsibility, indexResponsibility) => {
 						const responsibilityKey = `responsibility-${indexResponsibility}`
 						return (
-							<li key={responsibilityKey}>{responsibility}</li>
+							<li key={responsibilityKey}>{responsibility.name}</li>
 						)
 					})
 				}
@@ -103,7 +103,7 @@ const ProjectStackCard: NextPage<ProjectStackCardProps> = ({
 						const stackKey = `stack-${indexStack}`
 
 						return (
-							<li key={stackKey}>{stack}</li>
+							<li key={stackKey}>{stack.name}</li>
 						)
 					})
 				}

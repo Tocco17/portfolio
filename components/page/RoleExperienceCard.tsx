@@ -1,7 +1,7 @@
 import { NextPage } from "next"
 
 type RoleExperienceCardProps = {
-	roles: string[]
+	roles: WorkRole[]
 }
 
 export const RoleExperienceCard: NextPage<RoleExperienceCardProps> = ({
@@ -13,7 +13,7 @@ export const RoleExperienceCard: NextPage<RoleExperienceCardProps> = ({
 			<ul>
 				{
 					roles.map((role, indexRole) => (
-						<li key={`role-${indexRole}`}>{role}</li>
+						<li key={`role-${indexRole}`}>{role.name}</li>
 					))
 				}
 			</ul>

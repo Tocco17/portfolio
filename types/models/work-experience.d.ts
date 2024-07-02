@@ -6,7 +6,9 @@ type WorkExperience = {
 	projects: WorkProject[]
 }
 
-type WorkRole = string
+type WorkRole = {
+	name: string
+}
 
 type WorkProject = {
 	name: string
@@ -15,6 +17,10 @@ type WorkProject = {
 	stack?: WorkStack[]
 }
 
-type WorkResponsibility = string
+type WorkResponsibility = {
+	name: string
+}
 
-type WorkStack = string
+type WorkStack = {
+	name: string
+}
