@@ -6,21 +6,3 @@ type WorkExperience = {
 	projects: WorkProject[]
 }
 
-type WorkRole = {
-	name: string
-}
-
-type WorkProject = {
-	name: string
-	description?: string
-	responsibilities?: WorkResponsibility[]
-	stack?: WorkStack[]
-}
-
-type WorkResponsibility = {
-	name: string
-}
-
-type WorkStack = {
-	name: string
-}

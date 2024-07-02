@@ -1,0 +1,3 @@
+type WorkResponsibility = {
+	name: string
+}

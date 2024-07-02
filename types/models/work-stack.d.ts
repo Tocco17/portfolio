@@ -1,0 +1,3 @@
+type WorkStack = {
+	name: string
+}
