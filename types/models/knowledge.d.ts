@@ -1,0 +1,3 @@
+type Knowledge = {
+	name: string
+}
