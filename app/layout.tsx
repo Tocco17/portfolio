@@ -23,7 +23,7 @@ export default function RootLayout({
 			<body className={`${inter.className}`}>
 				<Menu />
 
-				<PageContainer>{children}</PageContainer>
+				{children}
 
 				<Footer />
 			</body>
