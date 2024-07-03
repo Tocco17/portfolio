@@ -38,6 +38,10 @@ body {
     box-sizing: border-box;
 }
 
+ul{
+	list-style-type: none;
+}
+
 body
 {
     display: flex;
@@ -94,24 +98,25 @@ a{
 
 
 .page-with-menu{
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	align-items: start;
-	gap: 10px;
-	max-width: 100%;
 }
 
 .horizontal-navbar{
-	display: flex;
+	/* position: fixed; */
+	height: 100%;
+	background-color: red;
+	width: 230px;
+	/* display: block;
+	padding-left: 10px;
+	height: 50%; */
+}
+
+.horizontal-navbar ul{
+
+	/* display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
-	padding-left: 10px;
-
-	gap: 10px;
-
-	list-style-type: none;
+	gap: 10px; */
 }
 
 /* ------------------------------------------------- */
