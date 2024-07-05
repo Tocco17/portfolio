@@ -4,5 +4,6 @@ type WorkExperience = {
 	end?: number
 	roles: WorkRole[]
 	projects: WorkProject[]
+	logoPath: string
 }
 

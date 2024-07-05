@@ -129,8 +129,15 @@ a{
 	gap: 1rem;
 }
 
-/* .paragraph-page{
 
-} */
+.work-experience-card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	flex-wrap: wrap;
+	gap: 3rem;
+	width: 100%;
+}
 /* ------------------------------------------------- */
 

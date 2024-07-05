@@ -32,7 +32,8 @@ const bushidoExperience: WorkExperience = {
 				},
 			]
 		}
-	]
+	],
+	logoPath: 'eustema-logo.png',
 }
 
 const eustemaExperience: WorkExperience = {
@@ -82,7 +83,8 @@ const eustemaExperience: WorkExperience = {
 			name: "SIAE",
 			description: "Data sanitization"
 		}
-	]
+	],
+	logoPath: 'eustema-logo.png',
 }
 
 const remiraExperience: WorkExperience = {
@@ -136,7 +138,8 @@ const remiraExperience: WorkExperience = {
 				},
 			]
 		}
-	]
+	],
+	logoPath: 'remira-logo-500x158.jpg',
 }
 
 const workExperiences: WorkExperience[] = [
