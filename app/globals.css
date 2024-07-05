@@ -111,6 +111,26 @@ a{
 .page{
 	min-width: 70%;
 	max-width: 80%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 3rem;
 }
+
+.list{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	gap: 1rem;
+}
+
+/* .paragraph-page{
+
+} */
 /* ------------------------------------------------- */
 
