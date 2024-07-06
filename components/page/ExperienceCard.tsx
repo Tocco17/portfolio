@@ -2,6 +2,7 @@ import { NextPage } from "next"
 import { RoleExperienceCard } from "./RoleExperienceCard"
 import { ProjectsExperienceCard } from "./ProjectExperienceCard"
 import Image from 'next/image'
+import { useState } from "react"
 
 type ExperienceCardProps = {
 	experience: WorkExperience
@@ -10,25 +11,37 @@ type ExperienceCardProps = {
 export const ExperienceCard: NextPage<ExperienceCardProps> = ({
 	experience
 }) => {
+	const [show, setShow] = useState<boolean>(false)
+
+	const handleImageClick = () => {
+		setShow(prev => !prev)
+	}
 
 	return (<>
-	<div>
-		<Image
-			src={`/${experience.logoPath}`}
-			alt={experience.societyName}
-			width={300}
-			height={300}
-		/>
-	</div>
+		<div className={`experience-card ${show ? "open" : ""}`}>
+			<Image
+				src={`/${experience.logoPath}`}
+				alt={experience.societyName}
+				width={300}
+				height={300}
+				onClick={handleImageClick}
+			/>
+			{
+				show &&
+				<div className="experience">
+					<h3>{experience.societyName} ({experience.start} - {experience.end ?? 'current time'})</h3>
+
+				</div>
+			}
+		</div>
 	</>)
-	
+
 	return (<>
 		<div>
-			<h3>{experience.societyName} ({experience.start} - {experience.end ?? 'current time'})</h3>
 
-			<RoleExperienceCard roles={experience.roles}/>
+			<RoleExperienceCard roles={experience.roles} />
 
-			<ProjectsExperienceCard projects={experience.projects}/>
+			<ProjectsExperienceCard projects={experience.projects} />
 		</div>
 	</>)
 }
