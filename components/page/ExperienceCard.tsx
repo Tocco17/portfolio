@@ -3,6 +3,7 @@ import { RoleExperienceCard } from "./RoleExperienceCard"
 import { ProjectsExperienceCard } from "./ProjectExperienceCard"
 import Image from 'next/image'
 import { useState } from "react"
+import { Paged } from "../layout/Paged"
 
 type ExperienceCardProps = {
 	experience: WorkExperience
@@ -31,6 +32,14 @@ export const ExperienceCard: NextPage<ExperienceCardProps> = ({
 				<div className="experience">
 					<h3>{experience.societyName} ({experience.start} - {experience.end ?? 'current time'})</h3>
 
+					<Paged
+						pages={
+							[
+								<RoleExperienceCard roles={experience.roles} />,
+								<ProjectsExperienceCard projects={experience.projects} />,
+							]
+						}
+					/>
 				</div>
 			}
 		</div>
@@ -39,9 +48,7 @@ export const ExperienceCard: NextPage<ExperienceCardProps> = ({
 	return (<>
 		<div>
 
-			<RoleExperienceCard roles={experience.roles} />
 
-			<ProjectsExperienceCard projects={experience.projects} />
 		</div>
 	</>)
 }
