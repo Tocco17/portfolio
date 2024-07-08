@@ -38,7 +38,6 @@ export const Paged: NextPage<PagedProps> = ({
 						className={`page-arrow ${index === pageIndex ? 'active' : 'hidden'}`}
 						onClick={handlePageArrowClick(index)}
 					>
-						{index}
 					</button>
 				))
 			}
