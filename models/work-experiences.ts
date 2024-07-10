@@ -33,7 +33,7 @@ const bushidoExperience: WorkExperience = {
 			]
 		}
 	],
-	logoPath: 'eustema-logo.png',
+	logoPath: 'bushido-karate-logo.png',
 }
 
 const eustemaExperience: WorkExperience = {
@@ -139,7 +139,7 @@ const remiraExperience: WorkExperience = {
 			]
 		}
 	],
-	logoPath: 'remira-logo-500x158.jpg',
+	logoPath: 'remira-logo.jpg',
 }
 
 const workExperiences: WorkExperience[] = [
