@@ -8,16 +8,14 @@ export const ProjectsExperienceCard: NextPage<ProjectExperienceCardProps> = ({
 	projects
 }) => {
 	return (<>
-		<div>
-			{
-				projects.map((project, indexProject) => (
-					<ProjectCard
-						key={`project-${indexProject}`}
-						project={project}
-					/>
-				))
-			}
-		</div>
+		{
+			projects.map((project, indexProject) => (
+				<ProjectCard
+					key={`project-${indexProject}`}
+					project={project}
+				/>
+			))
+		}
 	</>)
 }
 
@@ -30,7 +28,7 @@ const ProjectCard: NextPage<ProjectCardProps> = ({
 	project
 }) => {
 	return (<>
-		<div>
+		<div className="project-card">
 			<h4>{project.name}</h4>
 
 			<ProjectDescriptionCard description={project.description} />

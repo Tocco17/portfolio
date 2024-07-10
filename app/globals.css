@@ -177,6 +177,14 @@ a{
 	width: 100%;
 }
 
+.pages .paged.active{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 2rem;
+}
+
 .pages .paged.hidden{
 	display: none;
 }
