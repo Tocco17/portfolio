@@ -211,15 +211,15 @@ a{
 }
 
 .page-arrow.hidden{
-	opacity: 0.2;
-}
-
-.page-arrow.active{
 	opacity: 0.5;
 }
 
-.page-arrow:hover{
+.page-arrow.active{
 	opacity: 1;
+}
+
+.page-arrow:hover{
+	opacity: 1.5;
 }
 /* ------------------------------------------------- */
 
