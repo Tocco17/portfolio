@@ -22,7 +22,7 @@ const Navbar: Component = () => {
 
 export const Footer: Component = () => {
 	return (<>
-		<p>Footer</p>
+		<footer>Website developed with Next js, typescript and tailwind css. Deployed through AWS. v0.1.0</footer>
 	</>)
 }
 

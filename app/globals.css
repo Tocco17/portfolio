@@ -49,6 +49,11 @@ body
 	color: white;
 }
 
+footer{
+	padding-top: 2vh;
+	font-size: 0.8rem;
+}
+
 ul{
 	list-style-type: none;
 }
