@@ -1,12 +1,8 @@
 LAYOUT
-	Federico's portfolio come metadata
+	[niente]
 
 HOMEPAGE
-	Federico's portfolio come titolo nella homepage
-
-	Aggiungere link nella homepage a
-		linkedin
-		github
+	[niente]
 
 ABOUT
 	Aggiusta titoli delle varie pagine
