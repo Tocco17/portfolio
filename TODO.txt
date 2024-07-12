@@ -12,8 +12,6 @@ ABOUT
 	così da portare l'attenzione lì
 
 WORK EXPERIENCE
-	work experience card, justify-content: start, non between
-
 	Aggiungi esperienza js, jquery con eustema
 
 	Aggiungi animazione nell'apertura del work experience
