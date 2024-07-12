@@ -30,10 +30,15 @@ export const ProjectCard: NextPage<ProjectCardProps> = ({
 	return (<>
 		<div className="project-card">
 			<h4>{project.name}</h4>
+			<p>{project.description}</p>
 
-			<ProjectDescriptionCard description={project.description} />
+			{/* <ProjectDescriptionCard description={project.description} /> */}
 
 			<ProjectResponsibilitiesCard responsibilities={project.responsibilities} />
+
+			<ProjectFullDescriptionCard description={project.fullDescription} />
+
+			<ProjectObjectiveCard objectives={project.challengeAndObjectiveDescription} />
 
 			<ProjectStackCard stacks={project.stack} />
 		</div>
@@ -109,3 +114,42 @@ const ProjectStackCard: NextPage<ProjectStackCardProps> = ({
 		</div>
 	</>)
 }
+
+
+type ProjectFullDescriptionCardProps = {
+	description?: string
+}
+
+const ProjectFullDescriptionCard: NextPage<ProjectFullDescriptionCardProps> = ({
+	description
+}) => {
+	if(!description) return(<></>)
+
+	return (<>
+		<div>
+			<h5>Description:</h5>
+			<p>{description}</p>
+		</div>
+	</>)
+}
+
+
+
+type ProjectObjectiveCardProps = {
+	objectives?: string
+}
+
+const ProjectObjectiveCard: NextPage<ProjectObjectiveCardProps> = ({
+	objectives
+}) => {
+	if(!objectives) return(<></>)
+
+	return (<>
+		<div>
+			<h5>Challenges and Objectives:</h5>
+			<p>{objectives}</p>
+		</div>
+	</>)
+}
+
+

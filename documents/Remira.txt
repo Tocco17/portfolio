@@ -1,55 +1,5 @@
 REMIRA 02/01/2023 - current
 
-Remira Italia è una società che si occupa di servizi informatici di vario genere, che vanno dalla creazione di prodotti al servizio di consulenza.
-Io sono entrato in remira con il ruolo di consulente per lo sviluppo di web application.
-
-1. Periodo iniziale
-Il primo periodo l'ho passato formandomi sul corretto sviluppo di progetti backend e frontend.
-In particolare il backend si è concentrato sullo sviluppo di API RESTful attraverso .NET.
-Per quanto riguarda il frontend invece l'argomento è stato il framework js di React, nella versione typescript.
-
-
-2. MDSourcing
-Il progetto riguardava un'applicazione web richiesta da un privato cittadino. 
-L'app era un sito di e-commerce, relativo alla vendita di piante e alberi.
-
-Stack:
-- React ts
-- Bootstrap
-- .NET 5
-- Entity Framework
-- git
-
-Sfide e obiettivi:
-Il mio ruolo era quello di mantenere l'applicazione e aggiungere funzionalità.
-E' stato il mio primo approccio a react.
-
-
-3. EUI - Salary Calculette
-Sono entrato come consulente esterno all'EUI. 
-Sono stato assegnato al progetto Salary Calculette, web application che ha lo scopo di calcolare gli stipendi dei vari dipendenti,
-oltre a facilitare lo scambio di comunicazione fra gli uffici HR e BFA in merito ai contratti.
-
-Stack:
-- React ts
-- Tailwind CSS
-- .NET 7
-- Entity Framework
-- postreSQL
-- Docker
-- git
-- Azure
-
-Sfide e obiettivi:
-E' stato il primo progetto a cui ho assistito fin dall'inizio. Ho quindi avuto modo di seguire attentamente tutto il processo di analisi iniziale 
-e creazione delle basi del progetto.
-Inoltre il progetto è stato quasi interamente sviluppato dal sottoscritto.
-Il progetto ha riscontrato un parere positivo sempre maggiore. 
-Ha permesso di semplificare grosse operazioni di lavoro, riducendo tempi e costi.
-
----------------------------------------------------------------------------------------------------------------------------------------
-
-
 Remira Italia is a company specializing in various IT services, ranging from product development to consultancy services. I joined Remira as a consultant for the development of web applications.
 
 1. Initial Training Period
