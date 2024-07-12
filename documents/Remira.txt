@@ -1,0 +1,87 @@
+REMIRA 02/01/2023 - current
+
+Remira Italia è una società che si occupa di servizi informatici di vario genere, che vanno dalla creazione di prodotti al servizio di consulenza.
+Io sono entrato in remira con il ruolo di consulente per lo sviluppo di web application.
+
+1. Periodo iniziale
+Il primo periodo l'ho passato formandomi sul corretto sviluppo di progetti backend e frontend.
+In particolare il backend si è concentrato sullo sviluppo di API RESTful attraverso .NET.
+Per quanto riguarda il frontend invece l'argomento è stato il framework js di React, nella versione typescript.
+
+
+2. MDSourcing
+Il progetto riguardava un'applicazione web richiesta da un privato cittadino. 
+L'app era un sito di e-commerce, relativo alla vendita di piante e alberi.
+
+Stack:
+- React ts
+- Bootstrap
+- .NET 5
+- Entity Framework
+- git
+
+Sfide e obiettivi:
+Il mio ruolo era quello di mantenere l'applicazione e aggiungere funzionalità.
+E' stato il mio primo approccio a react.
+
+
+3. EUI - Salary Calculette
+Sono entrato come consulente esterno all'EUI. 
+Sono stato assegnato al progetto Salary Calculette, web application che ha lo scopo di calcolare gli stipendi dei vari dipendenti,
+oltre a facilitare lo scambio di comunicazione fra gli uffici HR e BFA in merito ai contratti.
+
+Stack:
+- React ts
+- Tailwind CSS
+- .NET 7
+- Entity Framework
+- postreSQL
+- Docker
+- git
+- Azure
+
+Sfide e obiettivi:
+E' stato il primo progetto a cui ho assistito fin dall'inizio. Ho quindi avuto modo di seguire attentamente tutto il processo di analisi iniziale 
+e creazione delle basi del progetto.
+Inoltre il progetto è stato quasi interamente sviluppato dal sottoscritto.
+Il progetto ha riscontrato un parere positivo sempre maggiore. 
+Ha permesso di semplificare grosse operazioni di lavoro, riducendo tempi e costi.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Remira Italia is a company specializing in various IT services, ranging from product development to consultancy services. I joined Remira as a consultant for the development of web applications.
+
+1. Initial Training Period
+During the initial period, I underwent training in the proper development of backend and frontend projects. The backend training focused on developing RESTful APIs using .NET. The frontend training covered the React.js framework, specifically using TypeScript.
+
+
+2. MDSourcing
+The project involved a web application requested by a private citizen. The application was an e-commerce website for selling plants and trees.
+
+Stack:
+- React TypeScript
+- Bootstrap
+- .NET 5
+- Entity Framework
+- Git
+
+Challenges and Objectives:
+My role was to maintain the application and add new features. This project marked my first experience with React.
+
+
+3. EUI - Salary Calculette
+I joined the European University Institute (EUI) as an external consultant. I was assigned to the Salary Calculette project, a web application designed to calculate employee salaries and facilitate communication between the HR and BFA offices regarding contracts.
+
+Stack:
+- React TypeScript
+- Tailwind CSS
+- .NET 7
+- Entity Framework
+- PostgreSQL
+- Docker
+- Git
+- Azure
+
+Challenges and Objectives:
+This was the first project I was involved in from the beginning. I closely followed the initial analysis and project foundation creation. Additionally, I developed almost the entire project myself. The project received increasingly positive feedback, significantly simplifying major work operations, reducing time and costs.

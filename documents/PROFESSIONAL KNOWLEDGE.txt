@@ -1,0 +1,41 @@
+PROFESSIONAL KNOWLEDGE 
+
+As mentioned in my professional experience, my skills have a range that cover both frontend and backend technologies.
+As a backend developer I've worked mostly with .NET frameworks, gaining the expertize needed to fully develop RESTful APIs.
+During my career I put extra attention in frontend technologies, with the goal of being an expert in javascript, with all its versions (such as jQuery and Vanilla JS) and its frameworks/libraries (typescript, React, Angular, Vue, NextJs).
+In my frontend project I've worked with different types of graphic libraries, such as Bootstrap and Tailwind CSS. I've also worked a lot with basic CSS, creating styles and animations.
+
+For versioning my project I've always used Git. For deploying I've used Docker and Azure.
+
+I gained a lot of skills through personal studies and personal projects I've worked on. In this way I managed to grow my knowledge without the necessity of a professional experience, but following my simple curiosity. Technologies that I've learnt this way and that I want to mention are:
+- JS frameworks
+- AWS cloud services
+- PHP
+
+For a comprehensive overview of my work and projects, please visit my personal portfolio at the link below:
+https://main.d1wamafriglfxj.amplifyapp.com/
+
+
+
+LETTER
+
+I am thrilled to apply for the Web Developer position at the European University Institute (EUI) because I am passionate to be part of an institution dedicated to excellence in research and education. 
+
+With 3 years of experience in web development, I have imporved my skills in frontend and backend technology, such as javascript framework and RESTful API in .NET. My background includes  collaborating with cross-functional teams, and optimizing user experiences. One notable project is the Salary Calculette Application project, in which I've been the main developer: this is the application used by EUI HR and BFA employees to manage calculations and communications involved in the contract creation processes.
+
+I am particularly drawn to this role at the EUI because it offers the opportunity to contribute to an environment that values innovation and academic rigor. I am eager to apply my expertise to develop and maintain high-quality web applications that will enhance the digital presence of the EUI, making information and resources more accessible to students, researchers, and the wider community.
+
+Furthermore, I am committed to continuous learning and improvement, and I am excited about the prospect of working in an academic setting. I believe my technical abilities, combined with my passion for education and research, make me a perfect fit for this position.
+
+Thank you for considering my application. I am enthusiastic about the possibility of contributing to the EUI and supporting its mission through my work as a Web Developer.
+
+
+OTHER FACTS
+
+I graduated from the Università degli Studi di Firenze with a degree in Physics and Astrophysics, where I completed a thesis on Recommender Systems.
+
+I have been practicing Karate for many years and have actively participated in the society's council, as well as teaching Karate classes for several years. This experience has honed my leadership skills, discipline, and ability to work effectively in a team.
+
+I am also certified in Basic Life Support and Defibrillation (BLSD), which underscores my commitment to community safety and first aid.
+
+Additionally, I hold both a type B and type A driver's license, which ensures my ability to travel as needed for work or other commitments.

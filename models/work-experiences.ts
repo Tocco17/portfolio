@@ -46,6 +46,7 @@ const eustemaExperience: WorkExperience = {
 		},
 	],
 	projects: [
+		// SIL
 		{
 			name: 'SIL',
 			description: 'Job management system for the Sardinia region',
@@ -54,10 +55,13 @@ const eustemaExperience: WorkExperience = {
 					name: ".NET 5",
 				},
 				{
-					name: ".NET Framework 4.8",
+					name: ".NET Framework 3.5",
 				},
 				{
-					name: "SQL Server",
+					name: "ASP.NET Webform",
+				},
+				{
+					name: "Microsoft SQL Server",
 				},
 				{
 					name: "Dapper",
@@ -66,22 +70,60 @@ const eustemaExperience: WorkExperience = {
 					name: "Razor",
 				},
 				{
-					name: "Bootstrap",
+					name: "Bootstrap Italia",
+				},
+				{
+					name: 'Vanilla Javascript',
+				},
+				{
+					name: 'jQuery',
+				},
+				{
+					name: 'CSS',
+				},
+				{
+					name: 'Git',
 				},
 			]
 		},
+		// CORTE DEI CONTI
 		{
 			name: 'Corte dei Conti',
-			description: 'Microsoft Word and Outlook plugins',
+			description: 'Maintain frontend part of project',
 			stack: [
 				{
-					name: ".NET WindowsForm",
+					name: "Angular",
+				},
+				{
+					name: "Git",
 				},
 			]
 		},
+		// MICROSOFT EXTENSIONS
+		{
+			name: 'Microsoft Word and Microsoft Outlook extension',
+			description: 'Microsoft extension for private citizen',
+			stack: [
+				{
+					name: '.NET Windows Form',
+				},
+				{
+					name: "Git",
+				},
+			]
+		},
+		// SIAE
 		{
 			name: "SIAE",
-			description: "Data sanitization"
+			description: "Data sanitization",
+			stack: [
+				{
+					name: 'ServiceNow',
+				},
+				{
+					name: 'Microsoft SQL Server',
+				},
+			]
 		}
 	],
 	logoPath: 'eustema-logo.png',
@@ -96,12 +138,13 @@ const remiraExperience: WorkExperience = {
 		},
 	],
 	projects: [
+		// MDSourcing
 		{
 			name: "MDSourcing",
 			description: "E-Commerce web application for the selling of plants and trees.",
 			stack: [
 				{
-					name: "Angular",
+					name: "React ts",
 				},
 				{
 					name: ".NET 5",
@@ -112,8 +155,12 @@ const remiraExperience: WorkExperience = {
 				{
 					name: "Bootstrap",
 				},
+				{
+					name: "Git",
+				},
 			]
 		},
+		// CALCULETTE
 		{
 			name: "Salary Calculette",
 			description: "Contract management system",
@@ -135,6 +182,12 @@ const remiraExperience: WorkExperience = {
 				},
 				{
 					name: "Tailwind CSS",
+				},
+				{
+					name: "Git",
+				},
+				{
+					name: "Azure",
 				},
 			]
 		}

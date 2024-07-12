@@ -12,18 +12,11 @@ ABOUT
 	così da portare l'attenzione lì
 
 WORK EXPERIENCE
-	work experience card, justify-content: start, non between
-
-	Aggiungi esperienza js, jquery con eustema
-
 	Aggiungi animazione nell'apertura del work experience
 
-	Card work experience, sezione progetti, le varie parti da suddividere meglio e da spaziare meglio
-	Distanziare immagine e sezione
+	Card work experience, sezione progetti, le varie parti da suddividere meglio
 	Bottoni più centrali nella card
 	Animazione nel cambio della pagina
-	La card cliccata va in cima
-	Evidenziare la data nella card da chiusa
 
 SKILL PAGE 
 	skills, invece che lista, avere quadrati con icone

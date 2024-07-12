@@ -130,7 +130,7 @@ a{
 .work-experience-card-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: start;
 	align-items: start;
 	flex-wrap: wrap;
 	gap: 3rem;
@@ -139,6 +139,7 @@ a{
 
 .experience-card {
 	display: flex;
+	flex-direction: column;
 	justify-content: start;
 	align-items: start;
 	
@@ -146,10 +147,26 @@ a{
 	color: black;
 	border-radius: 2rem;
 	padding: 2rem;
+	order: 2;
 }
 
 .experience-card.open {
+	flex-direction: row;
 	width: 100%;
+	order: 1;
+	gap: 2rem;
+
+	animation-name: experience-card-open;
+	animation-duration: 0.7s;
+}
+
+@keyframes experience-card-open {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
 }
 
 .experience-card .experience{
@@ -163,6 +180,23 @@ a{
 	align-items: start;
 
 	gap: 1rem;
+}
+
+.experience-card.open .experience{
+	animation-name: experience-open;
+	animation-duration: 0.7s;
+}
+
+@keyframes experience-open {
+	0%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 
 .experience-card img{
@@ -269,7 +303,15 @@ a{
 .contacts-link img {
 	width: 2rem;
 	cursor: pointer;
-	/* background-color: white; */
+}
+
+
+.project-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 0.5rem;
 }
 /* ------------------------------------------------- */
 
