@@ -1,8 +1,4 @@
 LAYOUT
-	scrollbar-width: thin;
-
-	Voci menu a sx, rimuovere Federico's portfolio
-
 	Federico's portfolio come metadata
 
 HOMEPAGE

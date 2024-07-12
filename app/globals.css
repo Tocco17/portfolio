@@ -36,6 +36,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+	scrollbar-width: thin;
 }
 
 body
@@ -66,28 +68,18 @@ a{
 .menu-container{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: start;
 	align-items: center;
+
+	gap: 3rem;
+	
 	min-width: 100%;
 	padding: 20px 40px;
 	background-color: #6461632b;
 }
 
-.menu-link-container{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.menu-link-container ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: end;
-	align-items: center;
-	gap: 3rem;
-
-	list-style-type: none;
+.menu-link:hover{
+	text-decoration: underline;
 }
 
 .menued-paged{

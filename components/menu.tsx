@@ -3,13 +3,8 @@ import Link from "next/link"
 export const Menu: Component = () => {
 	return (<>
 		<div className="menu-container">
-			<Link className="menu-title" href="/">Federico's Portfolio</Link>
-			<div className="menu-link-container">
-				<ul>
-					<li className="menu-link"><Link href="/">Home</Link></li>
-					<li className="menu-link"><Link href="/about">About</Link></li>
-				</ul>
-			</div>
+			<Link className="menu-link" href="/">Home</Link>
+			<Link className="menu-link" href="/about">About</Link>
 		</div>
 	</>)
 }

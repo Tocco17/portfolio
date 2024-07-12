@@ -9,13 +9,13 @@ export default function AboutPageLayout({
 	return (<>
 		<div className="menued-paged">
 			<div className="left-menu">
-				<Link href="/about">Introduction</Link>
-				<Link href="/about/passions">Passions</Link>
-				<Link href="/about/studies">Studies</Link>
-				<Link href="/about/work">Work Experience</Link>
-				{/* <Link href="/about/extra">Extra curriculum experience</Link> */}
-				<Link href="/about/skills">Skills</Link>
-				{/* <Link href="/about/certificates">Certificates</Link> */}
+				<Link className="menu-link" href="/about">Introduction</Link>
+				<Link className="menu-link" href="/about/passions">Passions</Link>
+				<Link className="menu-link" href="/about/studies">Studies</Link>
+				<Link className="menu-link" href="/about/work">Work Experience</Link>
+				{/* <Link className="menu-link" href="/about/extra">Extra curriculum experience</Link> */}
+				<Link className="menu-link" href="/about/skills">Skills</Link>
+				{/* <Link className="menu-link" href="/about/certificates">Certificates</Link> */}
 			</div>
 
 			<div className="page">
