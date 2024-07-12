@@ -20,7 +20,7 @@ const PassionsPage: NextPage = () => {
 				<li>Enrollment management</li>
 				<li>Organization of sporting events</li>
 				<li>Safeguarding policies manager</li>
-				<li>Certified BDSM: first aid intervention</li>
+				<li>Certified BLSD: first aid intervention</li>
 			</ul>
 		</p>
 
