@@ -1,6 +1,6 @@
 import { NextPage } from "next"
 import { RoleExperienceCard } from "./RoleExperienceCard"
-import { ProjectsExperienceCard } from "./ProjectExperienceCard"
+import { ProjectCard, ProjectsExperienceCard } from "./ProjectExperienceCard"
 import Image from 'next/image'
 import { useState } from "react"
 import { Paged } from "../layout/Paged"
@@ -40,7 +40,13 @@ export const ExperienceCard: NextPage<ExperienceCardProps> = ({
 						pages={
 							[
 								<RoleExperienceCard roles={experience.roles} />,
-								<ProjectsExperienceCard projects={experience.projects} />,
+								// <ProjectsExperienceCard projects={experience.projects} />,
+								...experience.projects.map((project, indexProject) => (
+									<ProjectCard
+										key={`project-${indexProject}`}
+										project={project}
+									/>
+								))
 							]
 						}
 					/>

@@ -24,7 +24,7 @@ type ProjectCardProps = {
 	project: WorkProject
 }
 
-const ProjectCard: NextPage<ProjectCardProps> = ({
+export const ProjectCard: NextPage<ProjectCardProps> = ({
 	project
 }) => {
 	return (<>
