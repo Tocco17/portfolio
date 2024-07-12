@@ -14,7 +14,7 @@ ABOUT
 WORK EXPERIENCE
 	Aggiungi animazione nell'apertura del work experience
 
-	Card work experience, sezione progetti, le varie parti da suddividere meglio e da spaziare meglio
+	Card work experience, sezione progetti, le varie parti da suddividere meglio
 	Bottoni più centrali nella card
 	Animazione nel cambio della pagina
 

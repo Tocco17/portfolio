@@ -274,7 +274,15 @@ a{
 .contacts-link img {
 	width: 2rem;
 	cursor: pointer;
-	/* background-color: white; */
+}
+
+
+.project-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 0.5rem;
 }
 /* ------------------------------------------------- */
 
