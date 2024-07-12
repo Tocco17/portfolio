@@ -146,10 +146,12 @@ a{
 	color: black;
 	border-radius: 2rem;
 	padding: 2rem;
+	order: 2;
 }
 
 .experience-card.open {
 	width: 100%;
+	order: 1;
 }
 
 .experience-card .experience{
