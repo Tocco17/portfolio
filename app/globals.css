@@ -105,6 +105,43 @@ a{
 	min-width: 15%;
 }
 
+.left-menu.closed a{
+	display: none;
+}
+
+.left-menu .left-menu-button{
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: white;
+}
+
+.left-menu .left-menu-button svg{
+	/* width: 30px; */
+}
+
+.left-menu.open .left-menu-button{
+	align-self: self-end;
+	animation-name: left-menu-button-open;
+	animation-duration: 1s;
+}
+
+.left-menu.closed .left-menu-button{
+	animation-name: left-menu-button-close;
+	animation-duration: 1s;
+}
+
+/* @keyframes left-menu-button-open {
+	0%{
+		align-self: self-start;
+		background-color: green;
+	}
+	100%{
+		align-self: self-end;
+		background-color: red;
+	}
+} */
+
 .page{
 	min-width: 70%;
 	max-width: 80%;
