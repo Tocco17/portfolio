@@ -139,6 +139,7 @@ a{
 
 .experience-card {
 	display: flex;
+	flex-direction: column;
 	justify-content: start;
 	align-items: start;
 	
@@ -150,8 +151,10 @@ a{
 }
 
 .experience-card.open {
+	flex-direction: row;
 	width: 100%;
 	order: 1;
+	gap: 2rem;
 }
 
 .experience-card .experience{

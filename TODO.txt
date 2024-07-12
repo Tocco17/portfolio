@@ -15,11 +15,8 @@ WORK EXPERIENCE
 	Aggiungi animazione nell'apertura del work experience
 
 	Card work experience, sezione progetti, le varie parti da suddividere meglio e da spaziare meglio
-	Distanziare immagine e sezione
 	Bottoni più centrali nella card
 	Animazione nel cambio della pagina
-	La card cliccata va in cima
-	Evidenziare la data nella card da chiusa
 
 SKILL PAGE 
 	skills, invece che lista, avere quadrati con icone

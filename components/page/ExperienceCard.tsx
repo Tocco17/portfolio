@@ -20,6 +20,10 @@ export const ExperienceCard: NextPage<ExperienceCardProps> = ({
 
 	return (<>
 		<div className={`experience-card ${show ? "open" : ""}`}>
+			{
+				!show &&
+				<h4 className="experience-date">{experience.start} - {experience.end ?? 'current time'}</h4>
+			}
 			<Image
 				src={`/${experience.logoPath}`}
 				alt={experience.societyName}
