@@ -1,0 +1,56 @@
+EUSTEMA 08/07/2021 - 01/12/2022
+
+I joined Eustema through a Fullstack course organized by Randstad, which was aimed at selection and employment. Eustema is an IT consulting company. For them, I worked with the following clients:
+- Region of Sardinia on the SIL project
+- Corte dei Conti
+- SIAE
+
+
+1. SIL (Job Information System for the Region of Sardinia)
+The first project I was assigned to was the SIL. The project involved restructuring and creating new features for a website for the Region of Sardinia. The website aimed to inform and assist the region's population in searching for and applying to new job opportunities.
+
+Stack:
+- .NET Framework 3.5: for restructuring
+- ASP.NET Webform: for restructuring
+- .NET 5.0: for creating new features
+- Razor: for the interface
+- CSS: for the graphics
+- Bootstrap Italia: for the graphics
+- HTML: for the interface
+- jQuery: for the interface
+- Dapper: as ORM, for class-database mapping
+- Microsoft SQL Server: database
+- Git: for version control
+
+Challenges and Objectives:
+The project was initially managed almost entirely by a team of junior members. In this context, lacking a solid foundation on project management, we successfully created a cohesive team, perfectly defining the roles of each individual, based on both skills and personal interests, allowing us to distribute tasks effectively. Together, we overcame various challenges: creating a solid team, managing and organizing the project, and analyzing both old and new technologies.
+
+
+2. Corte dei Conti
+My role was to maintain the frontend part of the project. It was written using the javascript framework Angular.
+
+Stack:
+- Angular
+
+Challenges and Objectives:
+It was my first attempt to work with a javascript framework. The attempt was successful thanks to personal studies in my spare time. In fact, aiming to achieve a better knowledge of javascript, I've studied thoroughly Vanilla JS and later Vue. As mentioned this studies helped me to completing the tasks of this project.
+
+3. Microsoft Word and Microsoft Outlook extension
+I was later assigned to a project for a private citizen. My role was to maintain and add new features to the already existing project. The project involved Microsoft extensions, specifically for Microsoft Word and Microsoft Outlook, aimed at facilitating document exchange.
+
+Stack:
+- .NET Windows Form
+
+Challenges and Objectives:
+The main challenge was working on the project alone, using a framework that was new to me, but outdated and poorly documented. Despite these challenges, I successfully met the project objectives on time.
+
+
+4.SIAE
+The project involved maintaining and cleaning the data within their databases.
+
+Stack:
+- ServiceNow: for ticket management
+- Microsoft SQL: for the database
+
+Challenges and Objectives:
+The main challenge was learning to perform reverse engineering. I only had access to the database, without visibility into the involved applications, which were proprietary to third-party companies.
