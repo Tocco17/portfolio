@@ -1,29 +1,40 @@
-Aggiungi animazione nell'apertura del work experience
+LAYOUT
+	scrollbar-width: thin;
 
-work experience card, justify-content: start, non between
+	Voci menu a sx, rimuovere Federico's portfolio
 
-Aggiungi esperienza js, jquery con eustema
+	Federico's portfolio come metadata
 
-Voci menu a sx, mentre Federico's portfolio come titolo nella homepage
+HOMEPAGE
+	Federico's portfolio come titolo nella homepage
 
-About page, menu nascosto da icona, che si anima al caricamento della pagina principale
+	Aggiungere link nella homepage a
+		linkedin
+		github
+
+ABOUT
+	Aggiusta titoli delle varie pagine
+
+	About page, menu nascosto da icona, 
+	che si anima al caricamento della pagina principale 
 	così da portare l'attenzione lì
 
-Federico's portfolio come metadata
+WORK EXPERIENCE
+	work experience card, justify-content: start, non between
 
-Card work experience, sezione progetti, le varie parti da suddividere meglio e da spaziare meglio
-Distanziare immagine e sezione
-Bottoni più centrali nella card
-Animazione nel cambio della pagina
-La card cliccata va in cima
-Evidenziare la data nella card da chiusa
+	Aggiungi esperienza js, jquery con eustema
 
-scrollbar-width: thin;
+	Aggiungi animazione nell'apertura del work experience
 
-skills, invece che lista, avere quadrati con icone
+	Card work experience, sezione progetti, le varie parti da suddividere meglio e da spaziare meglio
+	Distanziare immagine e sezione
+	Bottoni più centrali nella card
+	Animazione nel cambio della pagina
+	La card cliccata va in cima
+	Evidenziare la data nella card da chiusa
 
-valutare cambio lingua
+SKILL PAGE 
+	skills, invece che lista, avere quadrati con icone
 
-Aggiungere link nella homepage a
-	linkedin
-	github
+VALUTAZIONI FUTURE
+	valutare cambio lingua
