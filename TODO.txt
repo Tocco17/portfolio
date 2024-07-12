@@ -8,13 +8,10 @@ ABOUT
 	Aggiusta titoli delle varie pagine
 
 	About page, menu nascosto da icona, 
-	che si anima al caricamento della pagina principale 
-	così da portare l'attenzione lì
+		che si anima al caricamento della pagina principale 
+		così da portare l'attenzione lì
 
 WORK EXPERIENCE
-	Aggiungi animazione nell'apertura del work experience
-
-	Card work experience, sezione progetti, le varie parti da suddividere meglio
 	Bottoni più centrali nella card
 	Animazione nel cambio della pagina
 
