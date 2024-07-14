@@ -21,9 +21,9 @@ export default function AboutPageLayout({
 			<div className={`left-menu ${open ? 'open' : 'closed'}`}>
 				<button className="left-menu-button" onClick={handleClick}>
 					{
-						open 
-						? (<IoClose height={'10em'}/>)
-						: (<IoIosMenu height={'10em'}/>)
+						open
+							? (<IoClose height={'10em'} />)
+							: (<IoIosMenu height={'10em'} />)
 					}
 				</button>
 				<Link className="menu-link" href="/about">Introduction</Link>

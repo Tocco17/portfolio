@@ -102,7 +102,15 @@ a{
 	align-items: start;
 	
 	gap: 1rem;
+	max-width: 15%;
+}
+
+.left-menu.open{
 	min-width: 15%;
+}
+
+.left-menu.closed{
+
 }
 
 .left-menu.closed a{
