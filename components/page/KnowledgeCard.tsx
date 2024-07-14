@@ -8,6 +8,9 @@ export const KnowledgeCard: NextPage<KnowledgeCardProps> = ({
 	knowledge
 }) => {
 	return (<>
-	<li>{knowledge.name}</li>
+		<div className="knowledge">
+			{/* <p>{knowledge.name}</p> */}
+			<img src={knowledge.icon} alt={knowledge.name} title={knowledge.name} />
+		</div>
 	</>)
 }

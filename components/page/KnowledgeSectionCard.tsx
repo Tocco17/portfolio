@@ -9,19 +9,20 @@ export const KnowledgeSectionCard: NextPage<KnowledgeSectionCardProps> = ({
 	knowledgeSection
 }) => {
 	return (<>
-		<div>
+		<div className="knowledge-section">
 			<h3>{knowledgeSection.name}</h3>
 
-			<ul>
+			<div className="knowledge-card">
 				{
 					knowledgeSection.knowledges.map((knowledge, indexKnowledge) => (
-						<KnowledgeCard 
+						<KnowledgeCard
 							key={`knowledge-card-${indexKnowledge}`}
 							knowledge={knowledge}
 						/>
 					))
-					}
-			</ul>
+				}
+
+			</div>
 		</div>
 	</>)
 }

@@ -358,5 +358,29 @@ a{
 	align-items: start;
 	gap: 0.5rem;
 }
+
+
+.knowledge-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 2rem;
+}
+
+.knowledge-card{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: start;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+
+.knowledge img{
+	height: 5rem;
+	min-width: 5rem;
+}
 /* ------------------------------------------------- */
 
