@@ -17,7 +17,7 @@ const Navbar: Component = () => {
 
 export const Footer: Component = () => {
 	return (<>
-		<footer>Website developed with Next js, typescript and tailwind css. Deployed through AWS. v0.3.0</footer>
+		<footer>Website developed with Next js, typescript and tailwind css. Deployed through AWS. v0.3.1</footer>
 	</>)
 }
 
