@@ -10,7 +10,7 @@ export default function AboutPageLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
-	const [open, setOpen] = useState(false)
+	const [open, setOpen] = useState(true)
 
 	const handleClick = () => {
 		setOpen(prev => !prev)
